@@ -845,7 +845,7 @@ NVGpaint nvgLinearGradient(NVGcontext* ctx,
 {
 	NVGpaint p;
 	float dx, dy, d;
-	const float large = 1e5;
+	const float large = 1e3;
 	NVG_NOTUSED(ctx);
 	memset(&p, 0, sizeof(p));
 
